@@ -202,7 +202,7 @@ ul, li {
 }
 
 .two-column-wrapper {
-  width: 100%;
+  width: 120%;
   margin: 0 auto;
   padding: 20px 0;
   display: -webkit-box;
@@ -326,7 +326,7 @@ ul, li {
 ---------------------------------*/
 
 #skill .card-wrapper {
-  width: 100%;
+  width: 120%;
   margin: 0 auto;
   padding: 20px 0;
   display: -webkit-box;
@@ -432,7 +432,7 @@ ul, li {
  profile
 ---------------------------------*/
 #profile .card-wrapper {
-  width: 100%;
+  width: 120%;
   margin: 0 auto;
   padding: 20px 0;
   display: -webkit-box;
@@ -645,7 +645,6 @@ ul, li {
     opacity: 1;
   }
   #contents {
-    width: 140%;
     padding: 40px 0;
   }
   .section .inner {
@@ -658,7 +657,7 @@ ul, li {
     font-size: 36px;
   }
   #latestworks .two-column-wrapper {
-    width: 120%;
+    width: 100%;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
@@ -668,7 +667,7 @@ ul, li {
   }
 
   #latestworks .two-column-desc {
-    width: 120%;
+    width: 100%;
   }
   #works .card {
     width: 48%;
@@ -680,7 +679,7 @@ ul, li {
     font-size: 11px;
   }
   #about .two-column-wrapper {
-    width: 120%;
+    width: 100%;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
@@ -693,7 +692,7 @@ ul, li {
  }
 
   #skill .card-wrapper {
-    width: 120%;
+    width: 100%;
   }
   #skill .card {
     flex-basis: 100%;
@@ -731,7 +730,7 @@ ul, li {
     width: 75px;
   }
   #contact .contact-list ul {
-    width: 120%;
+    width: 100%;
   }
   #contact .contact-list li {
     flex-basis: 30%;
