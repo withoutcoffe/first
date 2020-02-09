@@ -202,7 +202,7 @@ ul, li {
 }
 
 .two-column-wrapper {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   padding: 20px 0;
   display: -webkit-box;
@@ -326,7 +326,7 @@ ul, li {
 ---------------------------------*/
 
 #skill .card-wrapper {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   padding: 20px 0;
   display: -webkit-box;
@@ -432,7 +432,7 @@ ul, li {
  profile
 ---------------------------------*/
 #profile .card-wrapper {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   padding: 20px 0;
   display: -webkit-box;
@@ -759,6 +759,7 @@ ul, li {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     object-fit: cover; /* ADD */
+
  }
 }
 
