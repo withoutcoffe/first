@@ -645,6 +645,7 @@ ul, li {
     opacity: 1;
   }
   #contents {
+    width: 120%;
     padding: 40px 0;
   }
   .section .inner {
