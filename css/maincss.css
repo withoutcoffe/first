@@ -657,7 +657,7 @@ ul, li {
     font-size: 36px;
   }
   #latestworks .two-column-wrapper {
-    width: 100%;
+    width: 120%;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
@@ -667,7 +667,7 @@ ul, li {
   }
 
   #latestworks .two-column-desc {
-    width: 100%;
+    width: 120%;
   }
   #works .card {
     width: 48%;
@@ -679,7 +679,7 @@ ul, li {
     font-size: 11px;
   }
   #about .two-column-wrapper {
-    width: 100%;
+    width: 120%;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
@@ -692,7 +692,7 @@ ul, li {
  }
 
   #skill .card-wrapper {
-    width: 100%;
+    width: 120%;
   }
   #skill .card {
     flex-basis: 100%;
@@ -730,7 +730,7 @@ ul, li {
     width: 75px;
   }
   #contact .contact-list ul {
-    width: 100%;
+    width: 120%;
   }
   #contact .contact-list li {
     flex-basis: 30%;
