@@ -9,6 +9,8 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   color: #333;
@@ -202,7 +204,7 @@ ul, li {
 }
 
 .two-column-wrapper {
-  width: 100%;
+  width: 120%;
   margin: 0 auto;
   padding: 20px 0;
   display: -webkit-box;
@@ -326,7 +328,7 @@ ul, li {
 ---------------------------------*/
 
 #skill .card-wrapper {
-  width: 100%;
+  width: 120%;
   margin: 0 auto;
   padding: 20px 0;
   display: -webkit-box;
@@ -432,7 +434,7 @@ ul, li {
  profile
 ---------------------------------*/
 #profile .card-wrapper {
-  width: 100%;
+  width: 120%;
   margin: 0 auto;
   padding: 20px 0;
   display: -webkit-box;
@@ -787,8 +789,69 @@ ul, li {
   text-align: center;
 }
 
+/*mail box
+----------------------------------------------------*/
+.mailbutton a{
+
+position: relative;
+padding: 10px 30px;
+margin: 0 15px;
+color: #21ebff;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 20px;
+transition: 0.5px;
+}
+
+.mailbutton a:before{
+content: '';
+position: absolute;
+top:0px;
+left: 0px;
+width: 10px;
+height: 10px;
+border-top: 2px solid #21ebff;
+border-left: 2px solid #21ebff;
+transition:  0.5s;
+}
+
+.mailbutton a:hover{
+text-decoration: none ;
+color: #111;
+background: #21ebff;
+box-shadow: 0 0 50px #21ebff;
+}
+
+
+.mailbutton a:hover:before{
+width: 100%;
+height: 100%;
+overflow: hidden;
+}
+
+.mailbutton a:hover:after{
+width: 100%;
+height: 100%;
+overflow: hidden;
+}
+
+.mailbutton a:after{
+content: '';
+position: absolute;
+bottom:0px;
+right: 0px;
+width: 10px;
+height: 10px;
+border-bottom: 2px solid #21ebff;
+border-right: 2px solid #21ebff;
+transition:  0.5s;
+}
+
+
 @media only screen and (max-width: 540px) {
   #gnav li {
     font-size: 8px;
   }
+
 }
