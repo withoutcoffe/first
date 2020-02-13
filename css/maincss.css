@@ -328,7 +328,7 @@ ul, li {
 ---------------------------------*/
 
 #skill .card-wrapper {
-  width: 120%;
+  width: 100%;
   margin: 0 auto;
   padding: 20px 0;
   display: -webkit-box;
@@ -434,7 +434,7 @@ ul, li {
  profile
 ---------------------------------*/
 #profile .card-wrapper {
-  width: 120%;
+  width: 100%;
   margin: 0 auto;
   padding: 20px 0;
   display: -webkit-box;
@@ -802,6 +802,7 @@ text-transform: uppercase;
 letter-spacing: 2px;
 font-size: 20px;
 transition: 0.5px;
+-webkit-box-reflect: below 1px linear-gradient(transparent,#0003);
 }
 
 .mailbutton a:before{
