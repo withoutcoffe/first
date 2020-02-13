@@ -328,7 +328,7 @@ ul, li {
 ---------------------------------*/
 
 #skill .card-wrapper {
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
   padding: 20px 0;
   display: -webkit-box;
@@ -434,7 +434,7 @@ ul, li {
  profile
 ---------------------------------*/
 #profile .card-wrapper {
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
   padding: 20px 0;
   display: -webkit-box;
